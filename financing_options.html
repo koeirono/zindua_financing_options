@@ -105,23 +105,76 @@
             background-color: #2e7fe9;
           }
 
-          .content{
-            display:grid; 
-            grid-template-columns: repeat(2,1fr);
+          .content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
             margin: 50px;
-            font-size: 160%;
-            
-
+            font-size: 200%;
           }
 
-          .girlimage{
+          .girlimage {
             -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-             filter: grayscale(100%);
-             border-radius: 25px;
-             overflow: hidden;
+            filter: grayscale(100%);
+            border-radius: 25px;
+            overflow: hidden;
           }
 
-          
+          .buttons2 {
+            padding: 10px 20px;
+            background-color: #ff4d40;
+            font-size: 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+          }
+
+          .buttons2:hover {
+            background-color: #2e7fe9;
+          }
+
+          .content2 {
+            text-align: center;
+            font-size: 30px;
+          }
+
+          .buttons3 {
+            padding: 5px 10px;
+            background-color: #dbd6d6;
+            font-size: 20px;
+            color: rgb(8, 8, 8);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 20px;
+          }
+
+          .buttons3:hover {
+            background-color: #418ff6;
+            color: azure;
+          }
+
+          .content3 {
+            font-size: 25px;
+            margin-top: 20px;
+          }
+
+          .financingcard {
+            border: 1px solid #e0e0e0d7;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px ;
+            background-color: #f9f9f9;
+            max-width: 90%;
+          }
+          .financingcard p {
+            font-size: 20px;
+          }
+
+          .financingcard h3 {
+            font-size:20px;
+          }
         </style>
       </head>
       <body>
@@ -188,11 +241,15 @@
 
         <div class="content">
           <p class="paragaph1">
-            <b>Financing options that can’t be matched, flexible instalments and
-            learn-now-pay-later plans.</b><br>
+            <b
+              >Financing options that can’t be matched, flexible instalments and
+              learn-now-pay-later plans.</b
+            ><br />
             We are known for the most flexible financing options. We offer
             flexible instalments as well as Lipa Mdogo Mdogo and Income-Share
-            Agreements as our deferred tuition financing options.
+            Agreements as our deferred tuition financing options. <br />
+            <button class="buttons2">Get Fee Estimate</button>
+            <button class="buttons2">See Pricing Options</button>
           </p>
           <div class="girlimage">
             <img
@@ -201,6 +258,100 @@
               height="669.5"
               alt="girl on page"
             />
+          </div>
+        </div>
+
+        <div class="content2">
+          <p>
+            <b>Pricing based on Program</b> <br />
+            Choose your program below to see the pricing options:
+          </p>
+          <button class="buttons3">Software Eng & Data Science</button>
+          <button class="buttons3">Data Analytics & Frontend Dev</button>
+          <button class="buttons3">DevOps & Data Engineering</button>
+        </div>
+
+        <div class="content3">
+          <p style="color: #ff4d40">
+            <b>Pricing for Software Engineering & Data Science Core programs</b>
+          </p>
+          <p>
+            These are the financing options for
+            <b>our 5-module programs</b> that run for 4 months full-time or 7
+            months part-time:
+          </p>
+
+          <div class="financingcard">
+            <h3>One-time Upfront Payment</h3>
+            <p>
+              Pay <b>KES 125K</b> one-time fee (This is the
+              <b>cheapest</b> financing option)
+            </p>
+          </div>
+
+          <div class="financingcard">
+            <h3>Pay in TWO Instalments</h3>
+            <p>
+              Pay <b>KES 65K every 2 months</b> for 2 total instalments; totals
+              to KES 130K.
+            </p>
+          </div>
+
+          <div class="financingcard">
+            <h3>Pay in THREE Instalments</h3>
+            <p>
+              Pay <b>KES 45K every 7 weeks</b> for 3 total instalments; totals
+              to KES 135K.
+            </p>
+          </div>
+
+          <div class="financingcard">
+            <h3>Pay in FOUR Instalments</h3>
+            <p>
+              Pay <b>KES 35K every 5 weeks</b> for 4 total instalments; totals
+              to KES 140K.
+            </p>
+          </div>
+
+          <div class="financingcard">
+            <h3>Pay in FOUR Instalments</h3>
+            <p>
+              Pay <b>KES 35K every 5 weeks</b> for 4 total instalments; totals
+              to KES 140K.
+            </p>
+          </div>
+
+          <div class="financingcard">
+            <h3>Pay in FIVE Instalments</h3>
+            <p>
+              Pay <b>KES 29K monthly</b> for 5 monthly instalments; totals to
+              KES 145K.
+            </p>
+          </div>
+
+          <div class="financingcard">
+            <h3>Flexi Payment Plan (Lipa mdogo mdogo)</h3>
+            <p>
+              Pay <b>KES 13,750 monthly for 12 months.</b> This financing will
+              require the student/parent (whoever will be making payments) to go
+              through a credit vetting process by Chaptr Global. This option is
+              ideal for students who are not eligible for an income-share
+              agreement but still cannot afford the instalment fee plans.
+            </p>
+          </div>
+
+          <div class="financingcard">
+            <h3>Income-Share Agreement (Learn now, pay later)</h3>
+            <p>
+              Pay <b> 50% of tuition fees</b> You’ll pay <b>KES 15K</b> every
+              month for <b>5 monthly instalments.</b> Once you graduate, you’ll
+              be required to pay
+              <b>10% of your earned income for 24 months.</b> If you do not get
+              a job you pay nothing! This financing plan is ONLY available to
+              students with Bachelor’s Degree or in their final year of
+              university i.e. students who’ll be looking for employment
+              immediately they graduate Zindua School.
+            </p>
           </div>
         </div>
       </body>
