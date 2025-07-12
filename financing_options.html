@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Financing Options</title>
+
+        <style>
+          * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+          }
+
+          body {
+            font-family: Arial, sans-serif;
+          }
+
+          .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #fff;
+          }
+
+          .logo img {
+            width: 115px;
+            height: 55px;
+          }
+
+          .navlinks {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+          }
+
+          .dropdwn {
+            position: relative;
+          }
+
+          .dropdownbutton {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            padding: 14px 16px;
+            background-color: inherit;
+            cursor: pointer;
+          }
+
+          .dropdowncontent {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+          }
+
+          .dropdowncontent a {
+            display: block;
+            padding: 12px 16px;
+            text-decoration: none;
+            color: #0f0f0f;
+            background-color: white;
+          }
+
+          .dropdowncontent a:hover {
+            background-color: rgb(235, 235, 235);
+            color: rgb(10, 80, 150);
+          }
+
+          .dropdwn:hover .dropdowncontent {
+            display: block;
+          }
+
+          .navbar a:hover,
+          .dropdwn:hover .dropdownbutton {
+            color: rgb(235, 59, 36);
+          }
+
+          .navlinks a:hover,
+          .navbar > .dropdownbutton:hover {
+            color: rgb(35, 138, 189);
+          }
+
+          .applybutton button {
+            padding: 10px 20px;
+            background-color: #ff4d40;
+            font-size: 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+
+          .applybutton button:hover {
+            background-color: #2e7fe9;
+          }
+
+          .content{
+            display:grid; 
+            grid-template-columns: repeat(2,1fr);
+            margin: 50px;
+            font-size: 160%;
+            
+
+          }
+
+          .girlimage{
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+             filter: grayscale(100%);
+             border-radius: 25px;
+             overflow: hidden;
+          }
+
+          
+        </style>
+      </head>
+      <body>
+        <div class="navbar">
+          <div class="logo">
+            <img src="cropped-Zindua-Transparent-Logo.png" alt="logo" />
+          </div>
+
+          <div class="navlinks">
+            <div class="dropdwn">
+              <button class="dropdownbutton">Programs</button>
+              <div class="dropdowncontent">
+                <a href="#">Data Programs</a>
+                <a href="#">Software Programs</a>
+                <a href="#">Specialisation Programs</a>
+                <a href="#">Programs by Your Level</a>
+                <a href="#">Short Tech Courses</a>
+                <a href="#">Join our Free Courses</a>
+              </div>
+            </div>
+
+            <div class="dropdwn">
+              <button class="dropdownbutton">Financing Plans</button>
+              <div class="dropdowncontent">
+                <a href="#">Program Pricing Options</a>
+                <a href="#">Flexi (Lipa Mdogo Mdogo)</a>
+                <a href="#">Income-Share Agreements</a>
+                <a href="#">Estimate your Fees</a>
+              </div>
+            </div>
+
+            <div class="dropdwn">
+              <button class="dropdownbutton">Resources</button>
+              <div class="dropdowncontent">
+                <a href="#">Blog Publication</a>
+                <a href="#">Discover MasterClasses</a>
+                <a href="#">Events & Webinars</a>
+                <a href="#">Frequently Asked Questions (FAQs)</a>
+              </div>
+            </div>
+
+            <div class="dropdwn">
+              <button class="dropdownbutton">More</button>
+              <div class="dropdowncontent">
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Join Our Team</a>
+              </div>
+            </div>
+
+            <div class="dropdwn">
+              <button class="dropdownbutton">Login</button>
+              <div class="dropdowncontent">
+                <a href="#">Student Login</a>
+                <a href="#">Affiliate Login</a>
+              </div>
+            </div>
+
+            <div class="applybutton">
+              <button>Apply Today</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <p class="paragaph1">
+            <b>Financing options that can’t be matched, flexible instalments and
+            learn-now-pay-later plans.</b><br>
+            We are known for the most flexible financing options. We offer
+            flexible instalments as well as Lipa Mdogo Mdogo and Income-Share
+            Agreements as our deferred tuition financing options.
+          </p>
+          <div class="girlimage">
+            <img
+              src="girl on page.jpg"
+              width="669.5"
+              height="669.5"
+              alt="girl on page"
+            />
+          </div>
+        </div>
+      </body>
+    </html>
+  </head>
+</html>
